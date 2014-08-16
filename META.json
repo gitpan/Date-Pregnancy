@@ -1,0 +1,49 @@
+{
+   "abstract" : "calculate birthdate and week numbers for a pregnancy",
+   "author" : [
+      "Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4205",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Date-Pregnancy",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.42"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "Clone" : "0",
+            "DateTime" : "0",
+            "Exporter" : "0",
+            "File::Find" : "0",
+            "File::Spec" : "0",
+            "POSIX" : "0",
+            "Test::More" : "0",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "provides" : {
+      "Date::Pregnancy" : {
+         "file" : "lib/Date/Pregnancy.pm",
+         "version" : "0.04"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.04"
+}
